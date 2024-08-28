@@ -1,0 +1,55 @@
+.nav-hover{
+    background-color: var(--color-bg);
+    width: 100%;
+    z-index: 3;
+    top:7.5vw;
+    left:0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.24);
+}
+.hover-container{
+    display: flex;
+    align-items: center;
+    padding-right: 15vw;
+    gap:1vw;
+}
+.hover-element{
+    height:12vw;
+    width: 9.6vw;
+    background-size: 9.6vw ;
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap:0.5vw
+}
+.hover-icon{
+    width: 3.5vw;
+}
+.hover-text{
+    color: white;
+    font-weight: 600;
+    font-size: 1vw;
+}
+.nav-service{
+    height: 7.5vw;
+    display: flex;
+    align-items: center;
+    padding-inline:4vw ;
+}
+.nav-contact{
+margin-left: -4vw;
+}
+.nav-pres{
+    margin-right: -4vw;
+}
+@media screen and (max-width:780px){
+
+        .nav-contact, .nav-pres {
+            margin-left: 0vw;
+        }
+}

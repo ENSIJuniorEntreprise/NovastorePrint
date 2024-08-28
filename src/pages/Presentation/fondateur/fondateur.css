@@ -1,0 +1,685 @@
+@font-face {
+    font-family: Lato-Black;
+    src: url(../../../police/Lato-Black.ttf);
+}
+
+@font-face {
+    font-family: Lato-LightItalic;
+    src: url(../../../police/Lato-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../../../police/Lato-Bold.ttf);
+}
+
+#cadre {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    margin: 2vw;
+    margin-top: 3vw;
+    background-color: #F8F5EC;
+    box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.2);
+}
+
+#author-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0vh;
+    font-size: 1vw;
+}
+
+#firstColumn {
+    padding-top: 6vw;
+    padding-bottom: 6vw;
+
+    padding-left: 7vw;
+    padding-right: 7vw;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 1.5vw;
+
+}
+
+#noun {
+    font-size: 2vw;
+    font-weight: bold;
+    color: #57C9EA;
+}
+
+#fondateur-title {
+    margin-left: 27%;
+    font-family: Lato-Bold;
+    font-size: 2.5vw;
+}
+
+#image {
+    background-size: cover;
+    height: auto;
+    width: 60vw;
+    overflow: hidden;
+}
+
+#image  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+#fondateur-text {
+    font-size: 1.8vw;
+    font-family: Lato-LightItalic;
+    max-width: 50vw;
+
+}
+
+#fondateur {
+    display: flex;
+    justify-content: center;
+}
+
+#color-fondateur {
+    background-image: url('../../../assets/title-background.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    padding-bottom: 1.5vw;
+
+
+}
+
+@media(max-width:700px) {
+
+    #fondateur {
+        margin-top: 20px;
+
+    }
+
+    #cadre {
+        display: grid;
+        grid-template-rows: 55% 45%;
+        width: 100%;
+        height: 550px;
+
+
+    }
+
+    #image {
+        width: 100%;
+        height: auto;
+        order: 1;
+        
+
+    }
+
+    #firstColumn {
+        order: 2;
+        align-items: center;
+        padding-top: 4vw;
+    }
+
+    #fondateur-title {
+        margin-left: 0%;
+        font-family: Lato-Bold;
+        font-size: 5vw;
+    }
+
+    #fondateur-text {
+        font-size: 2.5vw;
+        max-width: 85vw;
+        display: block;
+    }
+
+    #noun {
+        font-size: 4vw;
+    }
+
+ 
+
+    #status {
+        font-size: 2vw;
+    }
+    #author-container {
+        align-self: flex-end;
+        position: fixed;
+        top:500px;
+
+    }
+
+}
+
+
+
+
+@media(max-width:650px) {
+
+    #fondateur {
+        margin-top: 20px;
+
+    }
+
+    #cadre {
+        display: grid;
+        grid-template-rows: 55% 45%;
+        width: 100%;
+        height: 550px;
+
+
+    }
+
+    #image {
+        width: 100%;
+        height: auto;
+        order: 1;
+
+    }
+
+    #firstColumn {
+        order: 2;
+        align-items: center;
+        padding-top: 4vw;
+    }
+
+    #fondateur-title {
+        margin-left: 0%;
+        font-family: Lato-Bold;
+        font-size: 5vw;
+    }
+
+    #fondateur-text {
+        font-size: 2.5vw;
+        max-width: 70vw;
+        display: block;
+    }
+
+    #noun {
+        font-size: 4vw;
+    }
+
+    #author-container {
+        align-self: flex-end;
+    }
+
+    #status {
+        font-size: 2vw;
+    }
+
+}
+
+
+@media(max-width:700px) {
+
+    #fondateur {
+        margin-top: 20px;
+
+    }
+
+    #cadre {
+        display: grid;
+        grid-template-rows: 55% 45%;
+        width: 100%;
+        height: 650px;
+
+
+    }
+
+    #image {
+        width: 100%;
+        height: auto;
+        order: 1;
+        
+
+    }
+
+    #firstColumn {
+        order: 2;
+        align-items: center;
+        padding-top: 2vw;
+    }
+
+    #fondateur-title {
+        margin-left: 0%;
+        font-family: Lato-Bold;
+        font-size: 5vw;
+    }
+
+    #fondateur-text {
+        font-size: 2.75vw;
+        max-width: 90vw;
+        display: block;
+    }
+
+    #noun {
+        font-size: 4.5vw;
+    }
+
+ 
+
+    #status {
+        font-size: 2.25vw;
+    }
+    #author-container {
+        align-self: flex-end;
+        position: fixed;
+        top:600px;
+
+    }
+
+}
+
+@media(max-width:600px) {
+
+    #fondateur {
+        margin-top: 20px;
+
+    }
+
+    #cadre {
+        display: grid;
+        grid-template-rows: 55% 45%;
+        width: 100%;
+        height: 600px;
+
+
+    }
+
+    #image {
+        width: 100%;
+        height: auto;
+        order: 1;
+        
+
+    }
+
+    #firstColumn {
+        order: 2;
+        align-items: center;
+        padding-top: 2vw;
+    }
+
+    #fondateur-title {
+        margin-left: 0%;
+        font-family: Lato-Bold;
+        font-size: 5vw;
+    }
+
+    #fondateur-text {
+        font-size: 2.75vw;
+        max-width: 90vw;
+        display: block;
+    }
+
+    #noun {
+        font-size: 4.5vw;
+    }
+
+ 
+
+    #status {
+        font-size: 2.25vw;
+    }
+    #author-container {
+        align-self: flex-end;
+        position: fixed;
+        top:570px;
+
+    }
+
+}
+
+
+@media(max-width:550px) {
+
+    #fondateur {
+        margin-top: 20px;
+
+    }
+
+    #cadre {
+        display: grid;
+        grid-template-rows: 55% 45%;
+        width: 100%;
+        height: 580px;
+
+
+    }
+
+    #image {
+        width: 100%;
+        height: auto;
+        order: 1;
+
+    }
+
+    #firstColumn {
+        order: 2;
+        align-items: center;
+    }
+
+    #fondateur-title {
+        margin-left: 0%;
+        font-family: Lato-Bold;
+        font-size: 5.5vw;
+
+    }
+
+    #fondateur-text {
+        font-size: 3vw;
+        max-width: 95vw;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+
+    #noun {
+        font-size: 5vw;
+    }
+
+    #author-container {
+        align-self: flex-end;
+        position: fixed;
+        top:540px;
+    }
+
+    #status {
+        font-size: 2.5vw;
+    }
+    
+
+}
+
+
+@media(max-width:480px) {
+
+
+    #cadre {
+        display: grid;
+        grid-template-rows: 55% 45%;
+        width: 100%;
+        height: 500px;
+    }
+    #author-container {
+        align-self: flex-end;
+        position: fixed;
+        top:475px;
+    }
+    #fondateur-text {
+        font-size: 3.1vw;
+        max-width: 95vw;
+        display: block;
+        padding: 0;
+        margin: 0;
+    }
+    
+
+}
+
+@media(max-width:430px) {
+
+
+    #cadre {
+        display: grid;
+        grid-template-rows: 55% 45%;
+        width: 100%;
+        height: 570px;
+
+
+
+
+    }
+
+
+
+    #image {
+        width: 100%;
+        height: auto;
+        order: 1;
+
+    }
+
+    #firstColumn {
+        order: 2;
+        align-items: center;
+
+    }
+
+    #fondateur-title {
+        margin-left: 0%;
+        font-family: Lato-Bold;
+        font-size: 6.5vw;
+
+    }
+
+    #fondateur-text p {
+        font-size: 3.75vw;
+        display: block;
+        margin: initial;
+    }
+
+    #fondateur-text {
+        margin-top: 8px;
+        max-width: 100%;
+    }
+
+    #noun {
+        font-size: 5.5vw;
+    }
+
+    #author-container {
+        align-self: flex-end;
+        position: fixed;
+        top:540px;
+
+    }
+
+    #status {
+        font-size: 3vw;
+    }
+}
+    @media(max-width:370px) {
+
+
+        #cadre {
+            display: grid;
+            grid-template-rows: 55% 45%;
+            width: 100%;
+            height: 530px;
+
+    
+    
+    
+        }
+    
+    
+    
+        #image {
+            width: 100%;
+            height: auto;
+            order: 1;
+    
+        }
+    
+        #firstColumn {
+            order: 2;
+            align-items: center;
+    
+        }
+    
+        #fondateur-title {
+            margin-left: 0%;
+            font-family: Lato-Bold;
+            font-size: 6.5vw;
+    
+        }
+    
+        #fondateur-text p {
+            font-size: 3.75vw;
+            display: block;
+            margin: initial;
+        }
+    
+        #fondateur-text {
+            margin-top: 17px;
+            max-width: 100%;
+        }
+    
+        #noun {
+            font-size: 5.75vw;
+        }
+    
+        #author-container {
+            align-self: flex-end;
+            position: fixed;
+            top:510px;
+    
+        }
+    
+        #status {
+            font-size: 3.25vw;
+        }
+
+
+    }
+
+    @media(max-width:340px) {
+
+
+        #cadre {
+            display: grid;
+            grid-template-rows: 55% 45%;
+            width: 100%;
+            height: 530px;
+
+    
+    
+    
+        }
+    
+    
+    
+        #image {
+            width: 100%;
+            height: auto;
+            order: 1;
+    
+        }
+    
+        #firstColumn {
+            order: 2;
+            align-items: center;
+    
+        }
+    
+        #fondateur-title {
+            margin-left: 0%;
+            font-family: Lato-Bold;
+            font-size: 6.5vw;
+    
+        }
+    
+        #fondateur-text p {
+            font-size: 3.75vw;
+            display: block;
+            margin: initial;
+        }
+    
+        #fondateur-text {
+            margin-top: 17px;
+            max-width: 100%;
+        }
+    
+        #noun {
+            font-size: 5.75vw;
+        }
+    
+        #author-container {
+            align-self: flex-end;
+            position: fixed;
+            top:500px;
+    
+        }
+    
+        #status {
+            font-size: 3.25vw;
+        }
+
+
+    }
+
+    @media(max-width:315px) {
+
+
+        #cadre {
+            display: grid;
+            grid-template-rows: 55% 45%;
+            width: 100%;
+            height: 520px;
+
+    
+    
+    
+        }
+    
+    
+    
+        #image {
+            width: 100%;
+            height: auto;
+            order: 1;
+    
+        }
+    
+        #firstColumn {
+            order: 2;
+            align-items: center;
+    
+        }
+    
+        #fondateur-title {
+            margin-left: 0%;
+            font-family: Lato-Bold;
+            font-size: 6.5vw;
+    
+        }
+    
+        #fondateur-text p {
+            font-size: 4vw;
+            display: block;
+            margin: initial;
+        }
+    
+        #fondateur-text {
+            margin-top: 17px;
+            max-width: 100%;
+        }
+    
+        #noun {
+            font-size: 5.75vw;
+        }
+    
+        #author-container {
+            align-self: flex-end;
+            position: fixed;
+            top:495px;
+    
+        }
+    
+        #status {
+            font-size: 3.25vw;
+        }
+
+
+    }
+

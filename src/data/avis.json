@@ -1,0 +1,33 @@
+ [{
+        "id":1,
+        "name":"Sami.M",
+        "poste":" Constantine Constantinople ",
+        "image":"https://images.unsplash.com/photo-1520341280432-4749d4d7bcf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "avis":"Je suis ravi d'avoir choisi Novastore Print pour notre projet de revêtement de façade. Leur équipe a su allier esthétique et qualité, donnant à ma boutique une toute nouvelle allure. Un grand merci pour leur professionnalisme et leur souci du détail."
+
+    },
+    {
+        "id":2,
+        "name":"Katie.P",
+        "poste":" Constantine Constantinople ",
+        "image":"https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+        "avis":"Les stores sur mesure que nous avons obtenus de NovaStore Print sont tout simplement parfaits. Ils s'intègrent harmonieusement à notre espace extérieur, offrant une ombre agréable et un design élégant. Une équipe compétente qui comprend vraiment les besoins de ses clients."
+
+    },
+    {
+        "id":3,
+        "name":"Nouha.O",
+        "poste":" Constantine Constantinople ",
+        "image":"https://images.unsplash.com/photo-1488716820095-cbe80883c496?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
+        "avis":"Notre expérience avec NovaStore Print pour notre projet de store rétractable a été sans faille. Du début à la fin, ils ont été à l'écoute de nos besoins, proposant des solutions ingénieuses et une installation impeccable. Des experts dans leur domaine."
+
+    },
+    {
+        "id":4,
+        "name":"Nada.O",
+        "poste":" Constantine Constantinople ",
+        "image":"https://images.unsplash.com/photo-1548142813-c348350df52b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=389&q=80",
+        "avis":"NovaStore Print a apporté une nouvelle dimension à notre espace extérieur avec leur sélection de stores et d'abris. Le résultat final dépasse nos attentes. Leur engagement envers la qualité et le service client est indéniable."
+
+    }
+    ]

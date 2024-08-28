@@ -1,0 +1,319 @@
+.image2{
+    width: 435px;
+    height: 340px;
+    border-radius:5% ;
+    
+}
+.image1,.image3{
+    border-radius:5% ;
+    width: 220px;
+    height: 210px;
+}
+
+.buttons{
+    height:20px;
+    width: 15px;
+}
+.back{
+    padding-top: 20px;
+    background-image: linear-gradient(to right,#F8F5EC,rgba(87, 202, 234,0.3),#F8F5EC);
+
+  border-radius: 4%;
+}
+@media(max-width:1170px){
+    .image2{
+        width: 420px;
+        height: 320px;
+        border-radius:5% ;
+        
+    }
+    .image1,.image3{
+        border-radius:5% ;
+        width: 180px;
+        height: 180px;
+    }
+}
+@media(max-width:1140px){
+    .image2{
+        width: 400px;
+        height: 300px;
+        border-radius:5% ;
+        
+    }
+    .image1,.image3{
+        border-radius:5% ;
+        width: 160px;
+        height: 160px;
+    }
+}
+@media(max-width:930px){
+    .image2{
+        width: 380px;
+        height: 280px;
+        border-radius:5% ;
+        
+    }
+    .image1,.image3{
+        border-radius:5% ;
+        width: 140px;
+        height: 140px;
+    }
+}
+@media(max-width:930px){
+    .image2{
+        width: 370px;
+        height: 270px;
+        border-radius:5% ;
+        
+    }
+    .image1,.image3{
+        border-radius:5% ;
+        width: 130px;
+        height: 130px;
+    }
+}
+@media(max-width:810px){
+    .image2{
+        width: 360px;
+        height: 260px;
+        border-radius:5% ;
+        
+    }
+    .image1,.image3{
+        border-radius:5% ;
+        width: 120px;
+        height: 120px;
+    }
+}
+@media(max-width:780px){
+    .box{
+        display: none;
+    }
+    .MuiBox-root span, .MuiBox-root h3, .MuiBox-root p  {
+        font-size: 7.4vw;
+    }
+    .image2{
+        width: 460px;
+        height: 365px;
+        border-radius:5% ;
+        
+    }
+    .buttons{
+        height:25px;
+        width: 20px;
+    }
+    .MuiCardContent-root h6{
+        font-size: 2.5vw;
+    }
+}
+@media(max-width:650px){
+    .image2{
+        width: 450px;
+        height: 355px;
+        border-radius:5% ;
+        
+    }
+ 
+}
+@media(max-width:615px){
+    .image2{
+        width: 450px;
+        height: 355px;
+        border-radius:5% ;
+        
+    }
+    
+}
+@media(max-width:615px){
+    .image2{
+        width: 440px;
+        height: 345px;
+        border-radius:5% ;
+        
+    }
+    .left{
+        margin-left: 35px;
+
+
+    }
+    .right{
+        margin-right: 35px;
+
+    }
+    
+
+}
+@media(max-width:573px){
+    .image2{
+        width: 430px;
+        height: 335px;
+        border-radius:5% ;
+        
+    }
+    
+}
+@media(max-width:548px){
+    .image2{
+        width: 400px;
+        height: 380px;
+        border-radius:5% ;
+        
+    }
+   
+    .MuiCardContent-root h6{
+        font-size: 3vw;
+    }
+}
+@media(max-width:515px){
+    .image2{
+        width: 400px;
+        height: 380px;
+        border-radius:5% ;
+        
+    }
+
+}
+
+
+@media(max-width:500px){
+    .image2{
+        width: 360px;
+        height: 335px;
+        border-radius:5% ;
+        
+    }
+    
+    
+}
+@media(max-width:462px){
+    .image2{
+        width: 350px;
+        height: 340px;
+        border-radius:5% ;
+        
+    }
+    
+    
+}
+
+@media(max-width:444px){
+    .image2{
+        width: 340px;
+        height: 320px;
+        border-radius:5% ;
+        
+    }
+    
+    
+}
+@media(max-width:430px){
+    .image2{
+        width: 330px;
+        height: 320px;
+        border-radius:5% ;
+        
+    }
+    
+    
+}
+@media(max-width:417px){
+    .image2{
+        width: 310px;
+        height: 280px;
+        border-radius:5% ;
+        
+    }
+    
+    
+}
+@media(max-width:400px){
+    .image2{
+        width: 300px;
+        height: 290px;
+        border-radius:5% ;
+        
+    }
+    .MuiCardContent-root h6{
+        font-size: 3.5vw;
+    }
+    
+    
+}
+@media(max-width:385px){
+    .image2{
+        width: 280px;
+        height: 270px;
+        border-radius:5% ;
+        
+    }   
+}
+@media(max-width:370px){
+    .image2{
+        width: 270px;
+        height: 260px;
+        border-radius:5% ;  
+    }  
+   
+    .buttons{
+        height:20px;
+        width: 15px;
+
+    }
+    
+}
+@media(max-width:360px){
+    .image2{
+        width: 270px;
+        height: 260px;
+        border-radius:5% ;  
+    }  
+   
+    
+}
+@media(max-width:340px){
+    .image2{
+        width: 260px;
+        height: 250px;
+        border-radius:5% ;  
+    }  
+  
+    
+}
+@media(max-width:320px){
+    .image2{
+        width: 240px;
+        height: 230px;
+        border-radius:5% ;  
+    }  
+    .left{
+        padding-left: 10px;
+
+    }
+    .right{
+        padding-right: 10px;
+
+    } 
+    .MuiBox-root span, .MuiBox-root h3, .MuiBox-root p  {
+        font-size: 7.2vw;
+    }
+    
+}
+@media(max-width:300px){
+    .image2{
+        width: 225px;
+        height: 220px;
+        border-radius:5% ;  
+    }  
+   
+    .MuiBox-root span, .MuiBox-root h3 , .MuiBox-root p {
+        font-size: 7.2vw;
+    }
+    .MuiCardContent-root h6{
+        font-size: 4vw;
+    }
+}
+@media(max-width:281px){
+.MuiBox-root span, .MuiBox-root h3 , .MuiBox-root p {
+    font-size: 7.1vw;
+}
+}

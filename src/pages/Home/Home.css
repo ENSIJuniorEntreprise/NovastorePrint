@@ -1,0 +1,553 @@
+.home-container{
+  background-color: white;
+}
+
+
+
+
+.Lettre1{
+    color: #57C9EA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+  }
+   
+.titre{
+    color: #050727;
+    font-size: 4vw;
+    font-weight: bold;   
+}
+
+
+.home{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-bg);
+}
+
+
+.hero-main{
+
+  margin:0;
+  height:660px;
+}
+
+.imag{
+  position: relative;
+  width: 100%;
+  height:650px;
+  background-image: url('../../assets/novastore.png');
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+  margin: 0;
+}
+
+.imag::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg,  #050727eb, #050727af);;;
+}
+
+.hero-content{
+  position: relative;
+  width:100%;
+  height: 20%;
+  top:-260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:#F8f5ec ;
+
+}
+
+
+.hero-span{
+  color:#57c9ea;
+}
+.hero-h1{
+  font-size: 7vw;
+  padding-left: 5vw;
+  margin:0;
+  
+
+}
+
+.hero-p{
+  max-width: 90%;
+  font-size: 40px;
+  font-weight: 400;
+  padding-left: 5vw;
+  padding-right: 10vw;
+  margin:0;
+  
+}
+
+
+
+
+/* 
+
+  @media (max-width: 1200px){
+    
+    .imag{
+      width:100%;
+      /* height:90vh; */
+    
+    
+  
+ 
+/* 
+@media (max-width: 960px){
+  
+  .imag{
+    width:100%;
+  }
+  .hero-content{
+    top:-25vh;
+  }
+
+}
+@media (max-width: 600px){
+ 
+  .imag{
+    width:100%;
+  }
+  .hero-content{
+    top:-19vh;
+  }
+
+}
+
+@media (max-width: 480px){
+
+  .imag{
+    width:100%;
+  }
+  .hero-content{
+    top:-15vh;
+  }
+
+}
+
+@media (max-width: 350px){
+
+  .imag{
+    width:100%;
+  }
+  .hero-content{
+    top:-11vh;
+  }
+
+} */
+
+
+@media screen and (max-width: 788px){
+
+  .titre,.Lettre1{
+    font-size: 5vw;
+  
+  }
+
+}
+
+  @media screen and (max-width: 500px){
+    .titre,.Lettre1{
+
+      font-size: 6.5vw;
+  
+ }
+ #trait1{
+      
+  width: 50%;
+  border: 2px solid black;
+  
+}
+}
+@media screen and (max-width: 400px){
+  .titre,.Lettre1{
+
+    font-size: 7vw;
+
+}
+#trait1{
+      
+  width: 40%;
+  border: 2px solid black;
+  
+}
+}
+
+@media screen and (max-width: 350px){
+  .titre,.Lettre1{
+
+    font-size: 8vw;
+
+}
+
+}  
+
+@media (max-width:1210px) {
+  .hero-p{
+    max-width: 90%;
+    font-size: 35px;
+    font-weight: 400;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    margin:0;
+    
+  }
+  .imag{
+    position: relative;
+    width: 100%;
+    height:600px;
+    background-image: url('../../assets/novastore.png');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    margin: 0;
+  }
+  .hero-main{
+
+    margin:0;
+    height:610px;
+  }
+  .hero-content{
+    position: relative;
+    width:100%;
+    height: 20%;
+    top:-240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#F8f5ec ;
+  
+  }
+  
+}
+@media (max-width:1060px) {
+  .hero-p{
+    max-width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    margin:0;
+    
+  }
+  .imag{
+    position: relative;
+    width: 100%;
+    height:570px;
+    background-image: url('../../assets/novastore.png');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    margin: 0;
+  }
+  .hero-main{
+
+    margin:0;
+    height:580px;
+  }
+  .hero-content{
+    position: relative;
+    width:100%;
+    height: 20%;
+    top:-200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#F8f5ec ;
+  
+  }
+}
+
+@media (max-width:910px) {
+  .hero-p{
+    max-width: 100%;
+    font-size: 25px;
+    font-weight: 400;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    margin:0;
+    
+  }
+  .imag{
+    position: relative;
+    width: 100%;
+    height:570px;
+    background-image: url('../../assets/novastore.png');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    margin: 0;
+  }
+  .hero-main{
+
+    margin:0;
+    height:580px;
+  }
+  .hero-content{
+    position: relative;
+    width:100%;
+    height: 20%;
+    top:-180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#F8f5ec ;
+  
+  }
+}
+
+@media (max-width:760px) {
+  .hero-p{
+    max-width: 100%;
+    font-size: 23px;
+    font-weight: 400;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    margin:0;
+    
+  }
+  .hero-h1{
+    font-size: 6vw;
+    padding-left: 5vw;
+    margin:0;
+    
+  
+  }
+  .hero-content{
+    position: relative;
+    width:100%;
+    height: 20%;
+    top:-180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#F8f5ec ;
+  
+  }
+}
+@media (max-width:700px) {
+  .hero-p{
+    max-width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    margin:0;
+    
+  }
+  .hero-h1{
+    font-size: 6vw;
+    padding-left: 5vw;
+    margin:0;
+    
+  
+  }
+  .imag{
+    position: relative;
+    width: 100%;
+    height:580px;
+    background-image: url('../../assets/novastore.png');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    margin: 0;
+  }
+  .hero-content{
+    position: relative;
+    width:100%;
+    height: 20%;
+    top:-170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#F8f5ec ;
+  
+  }
+  .hero-main{
+
+    margin:0;
+    height:590px;
+  }
+}
+
+@media (max-width:605px) {
+  .hero-p{
+    max-width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    margin:0;
+    
+  }
+  .hero-h1{
+    font-size: 6vw;
+    padding-left: 5vw;    
+  
+  }
+  .imag{
+    position: relative;
+    width: 100%;
+    height:450px;
+    background-image: url('../../assets/novastore.png');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    margin: 0;
+  }
+  .hero-content{
+    position: relative;
+    width:100%;
+    height: 20%;
+    top:-150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#F8f5ec ;
+  
+  }
+  .hero-main{
+
+    margin:0;
+    height:460px;
+  }
+}
+@media (max-width:550px) {
+  .hero-p{
+    max-width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    margin:0;
+    
+  }
+  .hero-h1{
+    font-size: 30px;
+    padding-left: 5vw;    
+  
+  }
+  .imag{
+    position: relative;
+    width: 100%;
+    height:450px;
+    background-image: url('../../assets/novastore.png');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    margin: 0;
+  }
+  .hero-content{
+    position: relative;
+    width:100%;
+    height: 20%;
+    top:-140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#F8f5ec ;
+  
+  }
+  .hero-main{
+
+    margin:0;
+    height:460px;
+  }
+}
+
+@media (max-width:455px) {
+  .hero-p{
+    max-width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    margin:0;
+    
+  }
+  .hero-h1{
+    font-size: 30px;
+    padding-left: 5vw;    
+  
+  }
+  .imag{
+    position: relative;
+    width: 100%;
+    height:450px;
+    background-image: url('../../assets/novastore.png');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    margin: 0;
+  }
+  .hero-content{
+    position: relative;
+    width:100%;
+    height: 20%;
+    top:-140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#F8f5ec ;
+    gap:10%;
+  
+  }
+  .hero-main{
+
+    margin:0;
+    height:460px;
+  }
+}
+
+@media (max-width:290px) {
+  .hero-p{
+    max-width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    margin:0;
+    
+  }
+  .hero-h1{
+    font-size: 30px;
+    padding-left: 5vw;    
+  
+  }
+  .imag{
+    position: relative;
+    width: 100%;
+    height:450px;
+    background-image: url('../../assets/novastore.png');
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    margin: 0;
+  }
+  .hero-content{
+    position: relative;
+    width:100%;
+    height: 20%;
+    top:-140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#F8f5ec ;
+    gap:10%;
+  
+  }
+  .hero-main{
+
+    margin:0;
+    height:460px;
+  }
+}

@@ -1,0 +1,1134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300&display=swap');
+
+body{
+    background-color: white ;
+}
+.avis-container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    width: 49vw;
+    position: relative;
+   animation: slideDown1 0.5s; 
+    
+}
+
+
+
+.apostrophe-image{
+  width: 6vw;
+}
+.child1{
+  background-color: #F8F5EC;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 3%;
+    box-shadow: 
+    0px 0px 10px inset rgba(0, 0, 0, 0.5);
+    border-radius: 0.25rem;
+    width: 40vw;
+    height: 20vw;
+    overflow: hidden;
+
+
+}
+.child1:hover{
+    box-shadow:0px 0px 10px rgba(87, 201, 234, 1)
+
+}
+.imname1{
+    display: flex;
+    flex-direction:row;
+    margin-left:1%;
+}
+ .imname1 {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 1vw;
+ }
+
+.avis-text{
+  margin-top: 2vw;
+  margin-left: 13%;
+  margin-right: 13%;
+  text-align: center;
+  font-family: 'lato',sans-serif;
+  font-style: italic;
+  width: 30vw;
+ 
+}
+.avis-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:0;
+  width: 100%;
+}
+#avis-nom{
+  margin:0;
+    font-size: 1.7vw;
+    color: #57C9EA;
+    font-weight: bolder;
+    font-family: 'lato Black', sans-serif;
+    margin-left: 4%;
+    
+    
+}
+#avis-p{
+    font-weight:300;
+    margin:0;
+    margin-left: 4%;
+    font-size: 1vw;
+}
+#avis{
+    font-style: light italic;
+    font-family: light italic;
+    font-size: 1.35vw;
+}
+.appostrophe{
+position:absolute;
+height: 20%;
+margin-top: 1vw;
+margin-bottom: 1vw;
+}
+hr.light {
+    border-top: 0.3rem  solid  #57C9EA;
+    width:10%;
+    margin-bottom: .1rem ;
+}
+.dot1,
+.dot2,
+.dot3 {
+  height: 0.65rem;
+  width: 0.65rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: space-between;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.dot1.selected,
+.dot2.selected,
+.dot3.selected {
+  background-color: black;
+  opacity: 0.75;
+}
+
+
+
+.dot2:hover {
+  background-color: black;
+}
+.dot1:hover {
+    background-color: black;
+  }
+  .dot3:hover {
+    background-color: black;
+  }
+
+  .circles{
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5%;
+    margin-bottom: 6vw;
+    gap:1%;
+  }
+
+ 
+ @keyframes slideDown {
+    from{
+        transform:translateX(40rem);
+        opacity:1;
+    }
+    to{
+        transform: translateX(0rem);
+        opacity:1;
+
+    }
+} 
+
+.avis-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  width: 49vw;
+  position: relative;
+ animation: slideDown1 0.5s; 
+  
+}
+
+.box{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+   @keyframes slideDown1 {
+    from{
+        transform:translateX(40vw); 
+        opacity:0;
+    }
+    to{
+        transform: translateX(0vw); 
+        opacity:1;
+
+    }
+} 
+.parent{
+    display: flex;
+   
+}
+#i{
+    border-radius: 6rem;
+    height: 4vw;
+    width: 4vw;
+    margin-left: 1vw;
+    
+ 
+}
+.slide{
+    display: flex;
+    opacity: 1;
+    transition-duration: 1s ease;
+  }
+  .slider{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#picture{
+    position: fixed;
+    margin-top: 0.23rem;
+    margin-left: 15%;
+    z-index: -1;
+    width: 5%;
+    height: 5%;
+    background-color: #57C9EA;
+
+}
+  
+  
+.avis-titre {
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+  
+  
+    #color {
+      background-image: url('./pic.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      padding-left: 1.2vw;
+      padding-bottom: 0.66vw;
+      margin-left: -1.2vw;
+      font-size: 5vw;
+      font-family: 'lato Black', sans-serif;
+      font-weight: bolder;
+      text-align: left;
+      z-index: -1;
+      position: relative;
+      margin-block:0 ;
+    }
+  
+    #a,
+    #b {
+      font-size: 5vw;
+      font-family: 'lato Black', sans-serif;
+      font-weight: bolder;
+      margin-block:0 ;
+      margin-left: 10px;
+    }
+
+    @media(max-width:900px) {
+
+      #a,#b,#color{
+          font-size: 5.5vw;
+      }
+      .b{
+        margin-left: -03px;
+      }
+      .parent{
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .child1{
+        width:70%;
+        height: 30vw;
+        justify-content: initial;
+      }
+      
+      .avis-container{
+        width:100%;
+      }
+
+      .appostrophe img{
+        width: 70px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        }
+      .avis-text{
+        align-self: start;
+        max-width: 100%;
+        margin:0;
+        padding:0;
+        margin-left: 6vw;
+        margin-top: 4vw;
+      }
+      #avis{
+        font-size: 2.25vw;
+        width: 60vw;
+      }
+      
+      #i{
+        width:60px;
+        height:60px;
+        margin-left: 10px;
+        
+      }
+      .imname1{
+        position:absolute;
+        top:70%;
+        
+      }
+      .avis-name{
+        width:30vw;
+        margin-left: 2vw;
+      }
+      #avis-nom{
+        font-size: 2.5vw;
+      }
+      #avis-p{
+        font-size: 1.5vw;
+
+      }
+
+  
+  }
+
+  @media(max-width:770px) {
+    .imname1{
+      position:absolute;
+      top:67%;
+      
+    }
+  }
+
+  @media(max-width:700px) {
+
+  
+    .child1{
+      width:80%;
+      height: 35vw;
+      justify-content: initial;
+    }
+    .avis-container{
+      width:100%;
+    }
+
+    .appostrophe img{
+      width: 70px;
+      margin-top: 1vw;
+      margin-bottom: 1vw;
+      }
+    .avis-text{
+      align-self: start;
+      max-width: 100%;
+      margin:0;
+      padding:0;
+      margin-left: 9vw;
+      margin-top: 4vw;
+    }
+    #avis{
+      font-size: 2.75vw;
+      width: 65vw;
+    }
+    
+    #i{
+      width:60px;
+      height:60px;
+      margin-left: 10px;
+      
+    }
+    .imname1{
+      position:absolute;
+      top:65%;
+      
+    }
+    .avis-name{
+      width:30vw;
+      margin-left: 2vw;
+    }
+    #avis-nom{
+      font-size: 2.5vw;
+    }
+    #avis-p{
+      font-size: 1.5vw;
+
+    }
+
+
+}
+  @media(max-width:550px) {
+  
+    #a,#b,#color{
+          font-size: 5.75vw;
+      }
+      .b{
+        margin-left: -05px;
+      }
+      .imname1{
+        position:absolute;
+        top:60%;
+        
+      }
+      #avis-nom{
+        font-size: 2.75vw;
+      }
+      #avis-p{
+        font-size: 1.75vw;
+  
+      }
+  
+  }
+
+  @media(max-width:500px) {
+  
+  
+    .child1{
+      width:90%;
+      height: 43vw;
+      justify-content: initial;
+      margin:0;
+    }
+    .avis-container{
+      width:100%;
+    }
+
+    .appostrophe img{
+      width: 70px;
+      margin-top: 1vw;
+      margin-bottom: 1vw;
+      }
+    .avis-text{
+      align-self: start;
+      max-width: 100%;
+      margin:0;
+      padding:0;
+      margin-left: 12vw;
+      margin-top: 6vw;
+    }
+    #avis{
+      font-size: 3.25vw;
+      width: 75vw;
+    }
+    
+    #i{
+      width:60px;
+      height:60px;
+      margin-left: 14px;
+      
+    }
+    .imname1{
+      position:absolute;
+      top:64%;
+      
+    }
+    .avis-name{
+      width:33vw;
+      margin-left: 2vw;
+    }
+    #avis-nom{
+      font-size: 3.5vw;
+    }
+    #avis-p{
+      font-size: 2vw;
+
+    }
+  
+  }
+
+
+  
+  @media(max-width:450px) {
+  
+    #a,#b,#color{
+          font-size: 5.75vw;
+      }
+
+      .child1{
+        width:90%;
+        height: 43vw;
+        justify-content: initial;
+        margin:0;
+      }
+      .avis-container{
+        width:100%;
+      }
+  
+      .appostrophe img{
+        width: 70px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        }
+      .avis-text{
+        align-self: start;
+        max-width: 100%;
+        margin:0;
+        padding:0;
+        margin-left: 12vw;
+        margin-top: 6vw;
+      }
+      #avis{
+        font-size: 3.25vw;
+        width: 75vw;
+      }
+      
+      #i{
+        width:50px;
+        height:50px;
+        margin-left: 14px;
+        
+      }
+      .imname1{
+        position:absolute;
+        top:62%;
+        
+      }
+      .avis-name{
+        width:33vw;
+        margin-left: 2vw;
+      }
+      #avis-nom{
+        font-size: 3.5vw;
+      }
+      #avis-p{
+        font-size: 2vw;
+  
+      }
+    
+    
+  }
+  @media(max-width:400px) {
+  
+    #a,#b,#color{
+          font-size: 5.85vw;
+      }
+
+      .child1{
+        width:95%;
+        height: 50vw;
+        justify-content: initial;
+        margin:0;
+      }
+      .avis-container{
+        width:100%;
+      }
+  
+      .appostrophe img{
+        width: 60px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        }
+      .avis-text{
+        align-self: start;
+        max-width: 100%;
+        margin:0;
+        padding:0;
+        margin-left: 12vw;
+        margin-top: 4vw;
+      }
+      #avis{
+        font-size: 3.5vw;
+        width: 75vw;
+      }
+      
+      #i{
+        width: 50px;
+        height:50px;
+        margin-left: 14px;
+        
+      }
+      .imname1{
+        position:absolute;
+        top:63%;
+        
+      }
+      .avis-name{
+        width:40vw;
+        margin-left: 2vw;
+      }
+      #avis-nom{
+        font-size: 3.75vw;
+      }
+      #avis-p{
+        font-size: 2.5vw;
+  
+      }
+
+    
+    
+  }
+  @media(max-width:320px) {
+  
+    #a,#b,#color{
+          font-size: 5.85vw;
+      }
+      .b{
+        margin-left: -06px;
+      }
+      .appostrophe img{
+        width: 45px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        }
+        .imname1{
+          position:absolute;
+          top:65%;
+          
+        }
+        #i{
+          width: 45px;
+          height:45px;
+          margin-left: 14px;
+          
+        }
+        #avis{
+          font-size: 3.75vw;
+          width: 80vw;
+        }
+        .avis-text{
+          align-self: start;
+          max-width: 100%;
+          margin:0;
+          padding:0;
+          margin-left: 10vw;
+          margin-top: 4vw;
+        }
+  }
+
+  @media(max-width:300px) {
+  
+    #a,#b,#color{
+          font-size: 5.9vw;
+      }
+      .b{
+        margin-left: -06px;
+      }
+      .appostrophe img{
+        width: 40px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        }
+        .imname1{
+          position:absolute;
+          top:65%;
+          
+        }
+        #i{
+          width: 40px;
+          height:40px;
+          margin-left: 14px;
+          
+        }
+        #avis{
+          font-size: 3.75vw;
+          width: 80vw;
+        }
+        .avis-text{
+          align-self: start;
+          max-width: 100%;
+          margin:0;
+          padding:0;
+          margin-left: 10vw;
+          margin-top: 4vw;
+        }
+  }
+  
+
+  
+  
+  
+
+/* @media (max-width:850px) {
+  .parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avis-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: relative;
+  animation: slideDown1 1s;
+  
+}
+.child1{
+  width: 60vw;
+  height: 30vw;
+
+}
+.avis-text{
+  font-size: larger;
+}
+
+  
+} */
+  
+  /* @media screen and (max-width: 1180px) {
+    .circles{
+      margin-left: 47%;
+    }
+  }
+ 
+  @media screen and (max-width: 1130px) {
+   .child1{
+    height: 27vh;
+    
+   }
+   .imname1{
+    height: 15vh;
+    margin-top: -3rem;
+   }
+   #avis{
+    font-size: 0.8rem;
+   }
+  .text{
+
+    height: 15vh;
+    padding-top: 3%;
+   }
+   #p{
+
+    padding-top: 1%;
+
+   }
+
+   #avis{
+    margin-top: 5%;
+   }
+
+
+   
+   }
+   @media screen and (max-width: 376px) {
+    #nom{
+      font-size: 0.2rem;
+     
+    }
+   
+    #avis{
+      font-size: 0.1rem;
+      margin-top: -15%;
+      height: 1vh;
+  
+     
+    }
+
+   }
+  */
+  /* @media screen and (max-width: 1050px) {
+   #p{
+    margin-top: 1rem;
+    font-size: 0.6rem;
+   }
+   #nom{
+    font-size: 0.6rem;
+   }
+   .imname1{
+    margin-top: -2rem;
+   }
+   #i{
+    margin-top: 1rem;
+    height: 1.5rem;
+   }
+   .child1{
+    height: 21vh;
+    width: 44vw;
+   }
+
+ .h1{
+  font-size: 15%;
+ }
+ .circles{
+  margin-left: 46.5%;
+ }} */
+/* 
+ @media screen and (max-width: 913px) {
+  #p{
+    margin-top: 4%;
+  }
+ }
+  @media screen and (max-width: 907px) {
+    #avis{
+      font-size: 0.7rem;
+    }
+    
+  }
+  @media screen and (max-width: 840px) {
+    .circles{
+      margin-left: 45.5%;
+    }
+    #p{
+      margin-top: 3.5%;
+    }
+  }
+  @media screen and (max-width: 730px) {
+    .circles{margin-left: 44.6% ;
+      }  }
+  @media screen and (max-width: 715px) {
+    .imname1{
+      margin-top: 2rem;
+    }  
+    .appostrophe{
+      z-index: -1;
+      position: relative;
+    }
+    .child1{
+     height: 19vh;
+     width:45vw ;
+    }
+    .h1{
+      font-size: 15%;
+     }
+     #b{
+      width: 2rem;
+     }
+   #m{
+    height: 3rem;
+    width: 3rem;
+   }
+   
+   #color{
+    width: 6RE;
+   }
+   .circles{
+    margin-left: 45%;
+  }
+   
+   .text{
+    margin-top: -6.5rem;
+    width: 38vw;
+    height: 9vh;
+    margin-left: 2.5rem;
+
+   }
+   #avis{
+    padding-top: 15%;
+   }
+  
+   } */
+  
+   /* @media screen and (max-width: 608px) {
+    .imname1{
+      margin-top: 10%;
+      padding-top: 12%;
+      
+    }
+    .child1{
+      height: 16vh;
+    }
+    .im{
+      height: 2.3rem;
+    }
+    .name{
+      font-size: 0.5;
+    }
+    .circles{
+      margin-left: 44%;
+    }
+  
+    #avis{
+      font-size: 0.5rem;
+      padding-bottom: 27%;
+      margin-top: -5%;
+      height: 3vh
+    }
+    .child1{
+      height: 17vh;
+    }
+   }
+    
+   @media screen and (max-width: 608px) {
+ 
+  }
+  @media screen and (max-width: 540px) {
+    #avis{
+      padding-right: 30%;
+      
+    }
+  }
+  */
+  /* @media screen and (max-width: 559px) {
+    #avis{
+      padding-right: 19%;
+    } 
+  }
+  @media screen and (max-width: 706px) {
+    #avis{
+      padding-right: 7%;
+    }
+  }
+  @media screen and (max-width: 445px) {
+    .circles{
+      margin-left: 43.5%;
+    }
+    #avis{
+      padding-right: 12%;
+    }
+  }
+  @media screen and (max-width: 415px) {
+    #avis{
+      padding-right: 11%;
+    }
+  } */
+  /* @media screen and (max-width: 412px) {
+    .circles{
+      margin-left: 42.5%;
+    }
+    .child1{
+      height: 13vh;
+      width: 50vw;
+    }
+    #avis{
+      padding-top: 40%;
+      font-size: 0.4rem;
+    }
+    #i{
+      width: 90%;
+      height: 55%;
+      padding-bottom: -6%;
+    }
+    h1{
+      font-size: 4rem;
+    }
+    #nom{
+      font-size: 0.6rem;
+      
+    }
+    #p{
+      font-size: 0.5rem;
+     
+     
+    }
+    
+    .imname1{
+      margin-top: 10%;
+    }
+   
+    
+    
+  } */
+ 
+
+/* 
+  @media (max-width: 768px) {
+    #color {
+      font-size: 2rem;
+    }
+ 
+    #a, #b {
+      font-size: 2rem;
+    }
+ 
+  }
+  @media (max-width: 608px) {
+    .imname1{
+      margin-top: -5%;}
+    }
+  @media (max-width: 480px) {
+    #color {
+      font-size: 1.5rem;
+     
+    }
+  
+    #a, #b {
+      font-size: 1.5rem;
+    }
+   
+  
+  } */
+ 
+  /* @media (max-width: 380px) {
+    #color {
+      font-size: 1rem;
+      padding-left: 0.5rem;
+     
+    }
+    #avis{
+      font-size: 0.4rem;
+      margin-top: 6%;
+      padding-right: 25%;
+    }
+  
+    #a, #b {
+      font-size: 1rem;
+    }
+    .child1{
+      height: 13vh;
+    }
+    .imname1{
+
+      margin-top: -3.3%;
+    }
+    .circles{
+      margin-left: 41.5%;
+    }
+    #p{
+      font-size: 40%;
+      margin-top: 3.5%;
+    }
+  
+  }
+  @media screen and (max-width: 340px) {
+    #p{
+      font-size: 25%;
+      margin-top: 3.5%;
+    }
+  }
+  @media screen and (max-width: 322px) {
+    .circles{
+      margin-left: 40.5%;
+    }
+  }
+  @media (max-width: 300px) {
+    #p{
+      font-size: 16%;
+      margin-top: 3.5%;
+    }
+    .circles{
+      margin-left: 39.5%;
+    }
+    #color {
+      font-size: 1rem;
+      padding-left: 0.5rem;
+     
+    }
+    #avis{
+      font-size: 0.37rem;
+      margin-top: 30%;
+      margin-left: -18%;
+    }
+    #m{
+      width: 6vw;
+      height: 6vh;
+    }
+   
+    .im{
+      height: 4.5vh;
+  
+    }
+    .name{
+      margin-top: 1%;
+      height: 4vh;
+    }
+    .appostrophe{
+      margin-left: 5%;
+      width: 2.6vw;
+      height:2.6vh ;
+    }
+  
+    #a, #b {
+      font-size: 1rem;
+    }
+    .child1{
+      height: 11.5vh;
+    }
+    .imname1{
+      margin-top: -0.5rem;
+    }
+  }
+
+  @media (max-width: 286px) {
+    #p{
+      font-size: 0.28rem;
+      margin-top: 3.5%;
+    }
+  }
+  @media (max-width: 270px) {
+    #avis{
+      margin-top: 30%;
+    }
+    .circles{
+      margin-left: 38%;
+    }
+    #p{
+      margin-top: 3%;
+      font-size: 0.3rem;
+      margin-right: 4%;
+    }
+  }
+
+  @media (max-width: 260px) {
+    .imname1{
+      margin-left: -10%;
+      margin-top: -10%;
+    }
+    .child1{
+      height: 10vh;
+    }
+    #a, #b ,#color{
+      font-size: 0.6rem;
+    }
+    #avis{
+      margin-top: 35%;
+      margin-left: -20%;
+      font-size: 0.32rem;
+      width: 10vh;
+    }
+    #p{
+      margin-top: 3%;
+      font-size: 0.3rem;
+      margin-right: 4%;
+    }
+
+  }
+  @media (max-width: 236px) {
+    #avis{
+
+    }
+  } */
+  /* @media (max-width: 230px) {
+    .imname1{
+      margin-left: -10%;
+      margin-top: -10%;
+    }
+    #avis{
+      margin-top: 40%;
+      margin-left: -30%;
+      font-size: 0.33rem;
+    }
+    .circles{
+      margin-left: 35.5%;
+    }
+  } */
+  /* @media (max-width: 200px) {
+    .imname1{
+      margin-left: -10%;
+      margin-top: -10%;
+    }
+    #avis{
+      margin-top: 48%;
+      margin-left: -35%;
+      font-size: 0.25rem;
+    }
+  } */
+  
+  
+  
+  
+  
+  

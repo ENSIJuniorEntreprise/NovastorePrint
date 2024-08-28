@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Lato-BoldItalic;
+  src: url(../../../police/Lato-BoldItalic.ttf);
+}
+@font-face {
+  font-family: Lato-Black;
+  src: url(../../../police/Lato-Black.ttf);
+}
+
+.chiffre{
+  background: linear-gradient(rgb(85, 190, 247) ,#ffff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-size: 6vw;
+  font-family: Lato-Black;
+}
+#chiffreContent{
+max-width: 15vw;
+max-height: 15vh;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+#label{
+background-color: rgba(255, 255, 255, 0.089) ;
+font-family: Lato-BoldItalic;
+font-size: 1.3vw;
+color:#050727d6 ;
+
+}
+
+
+
+@media(max-width:780px) {
+
+
+ span.chiffre{
+  font-size: 7.5vw;
+}
+#label{
+  font-size: 2vw;
+
+}
+
+}
+
+@media(max-width:630px) {
+
+  span.chiffre{
+      font-size: 9vw;
+  }
+  #label{
+    font-size: 2.5vw;
+
+  }
+ 
+}
+
+@media(max-width:550px) {
+
+  span.chiffre{
+      font-size: 9vw;
+  }
+  #label{
+    font-size: 2.75vw;
+
+  }
+ 
+}
+
+@media(max-width:480px) {
+
+  span.chiffre {
+      font-size: 10vw;
+  }
+  #label{
+    font-size: 3vw;
+    width: 120%;
+
+  }
+  
+
+}
+
+@media(max-width:400px) {
+
+  span.chiffre {
+      font-size: 10vw;
+  }
+  #label{
+    font-size: 3.25vw;
+    width: 120%;
+
+  }
+  #chiffre-content{
+    display: flex;
+    gap:3vw;
+  }
+  
+
+}
+
+ 
+
+
+
+
+
+
+
